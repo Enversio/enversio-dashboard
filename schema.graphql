@@ -6831,7 +6831,7 @@ type CustomerEvent implements Node {
   order: Order
 
   """The concerned order line."""
-  orderLine: OrderLine
+  OrderLineorderLine: OrderLine
 
   """Customer event type."""
   type: CustomerEventsEnum
